@@ -11,3 +11,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .image-background {
+	opacity: 0.2;
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+  } */
+  .btn-signin_top{
+    background-color: rgba(31,106,93,1);
+    border: transparent;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+  }
+
+  .btn-signup_top{
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    border-left: transparent;
+    color: rgba(31,106,93,1);
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+  }
+
+  .btn-signin_topup{
+   
+    background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    border-right: transparent;
+    color: rgba(31,106,93,1);
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+  }
+
+  .btn-signup_topup{
+    background-color: rgba(31,106,93,1);
+    border: transparent;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+  }
+  .form-input-new{
+    background-color: #d7d9d8;
+    border: transparent;
+    border-radius: 8px;
+	  opacity: 0.5;
+    height: 50px;
+
+  }
+
+  .form-input-new:focus {
+    outline: none;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(31,106,93,1);
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+    padding: 10px;
+  }
+  .btn-signin{
+    position:relative;
+    background-color: red;
+    border: transparent;
+    border-radius: 8px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+	  opacity: 0.5;
+    text-align: left;
+    padding: 10px;
+  }
+  .icon-arrow-right{
+    position: absolute;
+    right: 3%; top: 33%
+    
+  }
+  .btn-facebook{
+    background-color: rgba(60,90,154,1);
+    border: transparent;
+    border-radius: 8px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  .btn-google{
+    background-color: rgba(52,168,83,1);
+    border: transparent;
+    border-radius: 8px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .forgot-pass{
+    color: gray;
+    float: left;
+    padding-left: 45px;
+    padding-top: 5px;
+  }
+
+  .accept-terms{
+    color: rgba(31,106,93,1);
+    float: left;
+    padding-top: 5px;
+  }
+
+  .or-text{
+    color: rgba(31,106,93,1);
+    float: left;
+    padding-left: 45px;
+    padding-top: 5px;
+  }
